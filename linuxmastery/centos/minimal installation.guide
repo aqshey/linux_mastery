@@ -1,0 +1,34 @@
+connect to the wifi with basic minimal installation. so that remote session can be activated. 
+
+commands
+
+Open a terminal:
+
+Press Ctrl+Alt+T to open a terminal window.
+List available Wi-Fi networks:
+
+nmcli device wifi list
+
+Identify the network you want to connect to:
+
+Look for the SSID (network name) of the Wi-Fi network you want to connect to in the list.
+Connect to the Wi-Fi network:
+
+Run the following command to connect to the desired Wi-Fi network:
+
+nmcli device wifi connect SSID password PASSWORD
+
+Replace "SSID" with the SSID of the Wi-Fi network and "PASSWORD" with the Wi-Fi password.
+
+
+Once you execute the command, the system will attempt to connect to the Wi-Fi network.
+Wait for a few moments until the connection is established.
+Verify the connection:
+
+To verify that you are connected to the Wi-Fi network, run the command:
+
+
+nmcli device status
+
+Look for the Wi-Fi interface (such as "wlan0") in the list and check if the connection status is "connected."
+
