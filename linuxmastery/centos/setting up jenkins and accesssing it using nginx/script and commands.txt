@@ -1,0 +1,7 @@
+sudo hostnamectl set-hostname myserver
+
+
+please refer to the nginx.conf file for the extra information
+
+
+
